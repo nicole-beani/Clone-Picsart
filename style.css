@@ -1,0 +1,421 @@
+/*Navbar*/
+.navbar{
+    padding: 18px 110px !important;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    background-color: #ffffff;
+}
+nav a {
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+#imageLogo{
+    margin-right: 45px;
+}
+ul:first-child li{
+    padding: 0 8px;
+}
+
+.navbar-nav > li > a {
+    white-space: nowrap;
+}
+/*Layout*/
+.layout {
+    position: relative;
+    overflow: hidden;
+  }
+/* First Layout*/
+  .firstLayout {
+    position: relative;
+    text-align: center;
+  }
+
+  .firstLayout img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .buttonPurple{
+  background-color: #920792 !important;
+  
+  }
+/* Second Layout*/
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .secondLayout h2:first-of-type {
+    margin: 2% 16%
+  }
+
+.customer-logos:first-child img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 43%;
+}
+.customer-logos:first-child .slide{
+    height: 160px;
+   width: 160px !important;
+    position: relative;
+ }
+ 
+ .customer-logos:first-child p{
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+  /* Slider */
+  
+  .slick-slide {
+      margin: 0px 20px;
+      display: flex !important;
+      justify-content: center !important;
+  }
+  
+ 
+  
+  .slick-slider
+  {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+              user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      height: 200px;
+  }
+  .slick-list:focus
+  {
+      outline: none;
+  }
+  .slick-list.dragging
+  {
+      cursor: pointer;
+      cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list
+  {
+      -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+           -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+  }
+  .slick-track:before,
+  .slick-track:after
+  {
+      display: table;
+      content: '';
+  }
+  .slick-track:after
+  {
+      clear: both;
+  }
+  .slick-loading .slick-track
+  {
+      visibility: hidden;
+  }
+  
+  .slick-slide
+  {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+  }
+  [dir='rtl'] .slick-slide
+  {
+      float: right;
+  }
+  .slick-slide img
+  {
+      display: block;
+  }
+  .slick-slide.slick-loading img
+  {
+      display: none;
+  }
+  .slick-slide.dragging img
+  {
+      pointer-events: none;
+  }
+  .slick-initialized .slick-slide
+  {
+      display: block;
+  }
+  .slick-loading .slick-slide
+  {
+      visibility: hidden;
+  }
+  .slick-vertical .slick-slide
+  {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+  }
+  .slick-arrow.slick-hidden {
+      display: none;
+  }
+ .ritaglia{
+    background-color:#faf8fe ;
+    border: 1px solid #dacdfb;
+ }
+ .customer-logos :first-child .slide{
+    display: flex;
+    justify-content: center;
+    
+}
+.yt{
+    background-color:#fef8f8 ;
+    border: 1px solid #fbcdcd;
+}
+
+.insta{
+    background-color:#fefaf8 ;
+    border: 1px solid #fbdacd;
+}
+.facebook{
+    background-color:#f8f9fe ;
+    border: 1px solid #cdd1fb;
+}
+.twitter{
+    background-color:#f8fcfe ;
+    border: 1px solid #cde3fb;
+}
+.ln{
+    background-color:#f8fdfe ;
+    border: 1px solid #cdecfb;
+}
+.pinterest{
+    background-color:#fef8f8 ;
+    border: 1px solid #fbcdcd;
+}
+.snapchat{
+    background-color:#fefef8 ;
+    border: 1px solid #fbf0cd;
+}
+.tw{
+    background-color:#fcf8fe ;
+    border: 1px solid #e5cdfb;
+}
+.spotify{
+    background-color:#f8fef8 ;
+    border: 1px solid #cffbcd;
+}
+.slide{
+    border-radius: 10%;
+}
+/*layout2*/
+.layout2{
+    display: flex;
+    flex-direction: column;
+   padding: 20vh 0;
+   background-color:#fcfcfc ;
+   margin-top: 10px;
+}
+
+/*wrapper*/
+
+  /*layout2*/
+  #first_toggle:checked ~ .toggle_option_slider{
+    background: #d8c5f77c;
+   
+    left: 3px;
+  }
+  #second_toggle:checked ~ .toggle_option_slider{
+    background: #d8c5f77c;
+ 
+    left: 109px;
+  }
+ 
+
+/*carousel third*/
+.carousel {
+ 
+    padding:100px 254px;
+    
+}
+.carousel img {
+    width: 100%; 
+  
+}
+.carousel:first-child .slick-slide{
+    height: 300px !important;
+}
+.carousel .card-body {
+   padding: 0;
+  
+}
+.buttonScopri{
+    position: absolute;
+    border: 2px solid #5a00ee;
+    top: 185vh;
+    left:44vw;
+}
+/*carousel fourth*/
+.carousel4 img {
+    width: 70%; 
+
+}
+.fourthLayout {
+    text-align: center;
+}
+
+.card{
+    width: 24rem !important;
+}
+#displays{
+    max-width: 100%;
+ 
+}
+
+
+
+/*fourth layout*/
+
+.fourthLayout{
+    height: 700px;
+}
+.slick-list.draggable {
+    height: auto;
+}
+
+/*fifth layout*/
+.fifthLayout{
+    position: relative;
+}
+.overlay-text2 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+.buttonPlans{
+ background-color: #c209c1 !important;
+   
+}
+/*footer1*/
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    width: 20%; /* Imposta la larghezza dei link per avere 5 link per riga */
+  box-sizing: border-box; /* Considera anche il padding nella larghezza */
+  text-align: start;
+  
+ 
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+#icona{
+    width: 1.2%;
+    height: 1.2%;
+    
+}
+.footer1{
+    padding: 0 80px ;
+   
+}
+ul, li{
+    list-style: none;
+}
+.fPadding{
+    padding: 0 30px;
+}
+.fFlex{
+    display: flex;
+    line-height: 2.3em;
+}
+.wordS{
+    padding-left: 24px;
+}
+.wordS2{
+    padding-left: 26px;
+}
+/*footer2*/
+.footer2{
+    background-color: #282b36;
+    color: #b4b4b4;
+    padding-left: 120px;
+}
+strong{
+    color: #ffffff;
+}
+.footer2 li{
+    padding-right: 10px;
+}
+footer a{
+    color: #b4b4b4 !important;
+}
+
+#AICPASOC{
+    width: 14%;
+}
+.linksApp{
+ display: flex;
+ padding: 0;
+}
+.linksApp li{
+    padding: 0 !important;
+}
+/*footer 3*/
+.footer3{
+    background-color: #1e2129;
+    padding: 0 90px;
+}
+.footer3 a{
+    padding-right: 12px;
+}
+.svgImg{
+    width: 9%;
+    padding: 5px;
+    background-color: #32343b;
+    border-radius: 50%
+}
